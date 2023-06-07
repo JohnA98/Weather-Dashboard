@@ -10,6 +10,8 @@ N/A
 
 ## Usage
 
+The website is live at https://github.com/JohnA98/Weather-Dashboard
+
 Landingpic
 <img width="1728" alt="Landing" src="https://github.com/JohnA98/Weather-Dashboard/assets/111317228/f83e2f09-5c94-407c-ab41-2b858611a70c">
 
