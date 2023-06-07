@@ -1,0 +1,58 @@
+body {
+  background-color: darkblue;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+sidebar {
+  background-color: skyblue;
+  height: 90vh;
+  width: 20vw;
+
+}
+
+weather {
+  background-color: white;
+  height: 95vh;
+  width: 75vw;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.weather-forecast {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  height: 25vh;
+  margin-top: 10%;
+}
+
+#city-name {
+  background-color: blue;
+  color: white;
+  font-size: 8vh;
+  text-align: center;
+  margin: 2% 2% 0 2%;
+  padding: 1%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#five-day-forecast {
+  background-color: #1977d4; 
+  text-align: center;
+  margin: 0 10% 0 10%;
+  padding: 1%;
+  color: white;
+}

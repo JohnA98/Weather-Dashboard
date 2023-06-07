@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Linking css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+  <nav class="navbar bg-primary">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-4">Weather Dashboard App</span>
+    </div>
+  </nav>
+  <main>
+    <sidebar>
+      <form>
+        <div class="m-3">
+          <label for="cityInput" class="form-label fs-5 text-white">City</label>
+          <input type="search" class="form-control" id="location-input">
+          <button id="searchBtn" type="submit" class="btn btn-primary mt-3 ms-3">Search</button>
+        </div>
+      </form>
+      <h1 class="mt-5 mb-3 fs-2 text-center text-white">Previous Searches:</h1>
+      <div class="list-group"></div>
+
+    </sidebar>
+    <weather>
+      <div class="city-result">
+        <h1 id="city-name">City Name</h1>
+        <h2 id="five-day-forecast">Next 6 Days Forecast</h2>
+      </div>
+
+      <div id="weather-day1" class="card col-8 m-auto text-center">
+        <div class="card-body">
+          <h4 class="card-text">Show todays weather</h4>
+        </div>
+      </div>
+
+      <div class="weather-forecast">
+        <div id="weather-day2" class="card col-2 text-center">
+          <div class="card-body">
+            <p class="card-text">Show weather</p>
+          </div>
+        </div>
+        <div id="weather-day3" class="card col-2 text-center">
+          <div class="card-body">
+            <p class="card-text">Show weather</p>
+          </div>
+        </div>
+        <div id="weather-day4" class="card col-2 text-center">
+          <div class="card-body">
+            <p class="card-text">Show weather</p>
+          </div>
+        </div>
+        <div id="weather-day5" class="card col-2 text-center">
+          <div class="card-body">
+            <p class="card-text">Show weather</p>
+          </div>
+        </div>
+        <div id="weather-day6" class="card col-2 text-center">
+          <div class="card-body">
+            <p class="card-text">Show weather</p>
+          </div>
+        </div>
+      </div>
+    </weather>
+  </main>
+
+<!-- Linking javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  <script src="assets/script.js"></script>
+
+</body>
+
+</html>
